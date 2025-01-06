@@ -14,3 +14,16 @@ body {
   align-items: center;
 }
 
+.header-title {
+  font-size: 65px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  margin-top: 75px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.header-title span {
+  font-weight: 700;
+}
