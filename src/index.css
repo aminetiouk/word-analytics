@@ -14,7 +14,7 @@ body {
   align-items: center;
 }
 
-.header-title {
+.main-heading {
   font-size: 65px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ body {
   font-weight: 300;
 }
 
-.header-title span {
+.main-heading span {
   font-weight: 700;
 }
 
@@ -41,4 +41,16 @@ body {
       rgba(24, 120, 175, 0.9)
     ),
     url("https://images.unsplash.com/photo-1546453667-8a8d2d07bc20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=100");
+}
+
+.container {
+  width: 1050px;
+  height: 520px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 55px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
 }
