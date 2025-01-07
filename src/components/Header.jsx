@@ -1,12 +1,14 @@
-import { Background } from './Background';
+import Background from './Background';
+import H1 from './H1';
 
-export function Header() {
+export default function Header() {
   return (
     <header>
       <Background />
-      <h1 className="header-title">
+
+      <H1>
         <span>word</span>analytics
-      </h1>
+      </H1>
     </header>
   );
 }
