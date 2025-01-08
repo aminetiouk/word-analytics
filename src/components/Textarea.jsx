@@ -1,8 +1,10 @@
 export default function Textarea() {
   return (
-    <textarea
-      className="textarea"
-      placeholder="Enter or paste your text here"
-    ></textarea>
+    <section className="textarea">
+      <textarea
+        spellCheck="false"
+        placeholder="Enter or paste your text here"
+      ></textarea>
+    </section>
   );
 }
