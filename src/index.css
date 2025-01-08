@@ -103,6 +103,21 @@ textarea {
   border-left: 1px solid #e0e0e0;
 }
 
+.stat__number {
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #4d5457;
+}
+
+.second-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #747a7c;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
