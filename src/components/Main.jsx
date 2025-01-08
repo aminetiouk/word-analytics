@@ -1,3 +1,3 @@
-export default function Main({ Children }) {
-  return <main className="container">{Children}</main>;
+export default function Main({ children }) {
+  return <main className="container">{children}</main>;
 }
