@@ -55,10 +55,33 @@ body {
   position: relative;
 }
 
+textarea {
+  all: unset;
+}
+
+.textarea {
+  flex: 2;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.textarea > textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.textarea::placeholder {
+  color: #b1b1b1;
+  font-size: 18px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-  opacity: 0.6;
+  margin: 14px 0;
+  opacity: 0.4;
   width: 100%;
 }
