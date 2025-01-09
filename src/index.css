@@ -140,6 +140,10 @@ textarea {
     padding: 15px 10px;
   }
 
+  .stat:nth-child(3) {
+    border-left: 1px solid #e0e0e0;
+  }
+
   .stat__number {
     font-size: 20px;
   }
