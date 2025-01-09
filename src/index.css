@@ -148,6 +148,10 @@ textarea {
     font-size: 20px;
   }
 
+  .stat__number--limit {
+    color: rgb(211, 60, 60);
+  }
+
   .footer {
     width: initial;
     flex-direction: column;
