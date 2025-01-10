@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import Warning from "./Warning";
+import {
+  FACEBOOK_MAX_CHARACTERS,
+  INSTAGRAM_MAX_CHARACTERS,
+} from "../lib/constants";
 
 export default function Textarea({ setStats }) {
   const [text, setText] = useState("");
@@ -16,13 +20,13 @@ export default function Textarea({ setStats }) {
     } else {
       setWarning("");
     }
-    
+
     setText(text);
     setStats({
       numberOfWords: text.split(" ")[0] === "" ? 0 : text.split(" ").length,
       numberOfCharacters: text.length,
-      instagramCharactersLeft: 2200 - text.length,
-      facebookCharactersLeft: 6320 - text.length,
+      instagramCharactersLeft: INSTAGRAM_MAX_CHARACTERS - text.length,
+      facebookCharactersLeft: FACEBOOK_MAX_CHARACTERS - text.length,
     });
   };
   return (
