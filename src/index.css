@@ -110,6 +110,10 @@ textarea {
   color: #4d5457;
 }
 
+.stat__number--limit {
+  color: rgb(179, 73, 73);
+}
+
 .second-heading {
   font-size: 14px;
   text-transform: uppercase;
