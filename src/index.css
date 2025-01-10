@@ -130,6 +130,16 @@ textarea {
   width: 100%;
 }
 
+.warning {
+  position: absolute;
+  bottom: 15px;
+  left: 35px;
+  color: rgb(179, 73, 73);
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
 @media (max-width: 1150px) {
   .container {
     width: 85vw;
