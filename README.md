@@ -1,8 +1,14 @@
-# React + Vite
+# Word Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Word Analytics is a project designed to analyze text data and provide insights such as word frequency, sentiment analysis, and more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Word frequency analysis
+- Sentiment analysis
+- Text summarization
+- Customizable stop words
+
+## Live Demo
+
+Check out our [live demo](https://word-analytics-six-nu.vercel.app/) to see Word Analytics in action.
